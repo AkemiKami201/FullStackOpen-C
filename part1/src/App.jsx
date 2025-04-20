@@ -9,6 +9,7 @@ const Header = (props) => {
 };
 
 const Part = (props) => {
+  // exercise 1.2
   return (
     <p>
       {props.name} {props.exercises}
@@ -39,6 +40,7 @@ const Total = (props) => {
 };
 
 const App = () => {
+  // exercises 1.2
   const course = "Half Stack application development";
   const part1 = "Fundamentals of React";
   const part2 = "Using props to pass data";
